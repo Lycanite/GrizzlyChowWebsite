@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* ============================== */
+/*            Template            */
+/* ============================== */
+/* ========== Body ========== */
+body {
+	background-color: #FFF;
+	background-image: url('/images/patterns/food.png');
+}
+
+/* ========== Header ========== */
+header {
+	color: #444;
+	background-color: #EEE;
+}
+
+
+/* ========== Main ========== */
+#main {
+	color: #444;
+	text-shadow: 1px 1px 1px #BBB;
+}
+#main a {
+	color: #999;
+	text-shadow: 1px 1px 1px #666;
+}
+#main a:hover {
+	color: #BBB;
+}
+
+/* ========== Footer ========== */
+footer, #footer {
+	color: #666;
+}
+footer a, footer a:hover, #footer a, #footer a:hover {
+	color: #666;
+}
+
+
+/* ============================== */
+/*             Common             */
+/* ============================== */
+
+/* ========== Boxes ========== */
+.box-dark {
+	background-color: rgba(255,128,0,0.25);
+	box-shadow: 1px 1px 8px 8px rgba(255,128,0,0.25);
+}
+.addon-item .box-light {
+	background-color: rgba(128,128,128,0.05);
+}
+.box-blue {
+	background-color: rgba(64,64,255,0.2);
+}
+
+
+/* ========== Dividers ========== */
+.divider-vertical, .divider-horizontal {
+	background-color: #222;
+}
+.divider-vertical-light, .divider-horizontal-light {
+	background-color: #FFF;
+}
+.divider-horizontal-large {
+	background-image: url("/images/divider.png");
+}
+
+
+/* ========== Forms ========== */
+input, textarea, select {
+	background-color: #FD9;
+	border-style: solid;
+	border-color: #F92;
+}
+input.valid, textarea.valid {
+	background-color: #9F9;
+}
+input.invalid, textarea.invalid {
+	background-color: #F99;
+}
+input:disabled, textarea:disabled, select:disabled, label.disabled, .form-arrow.disabled, .form-arrow-required.disabled {
+	/*background-color: rgba(128,128,128,0.5);
+	border-color: rgba(128,128,128,0.5);*/
+	opacity: 0;
+}
+
+
+/* ========== Link Button ========== */
+.button {
+	color: #FFF;
+	background-color: #F22;
+	background-image: url("/images/patterns/diagonal.png");
+	text-shadow: 1px 1px 0px #000;
+}
+.button:hover {
+	background-color: #F52;
+}
+.button:active {
+	background-color: #F92;
+}
+.button.disabled {
+	color: #CCC;
+	background-color: #888 !important;
+}

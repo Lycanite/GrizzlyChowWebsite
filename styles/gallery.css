@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* ================================ */
+/*        	   Gallery              */
+/* ================================ */
+
+/* Gallery Item Size: */
+.gallery li {
+	overflow:hidden;
+}
+
+.gallery ul {
+	font-size: 0px !important;
+	list-style-type: none !important;
+	list-style-position: outside !important;
+	padding-left: 0px !important;
+}
+
+	
+/* ========== Jumper Controls ========== */
+ol#jumper {
+	margin: 0 auto;
+	top: -32px;
+	width: auto;
+	height: 0px;
+	position: relative;
+	overflow: visible;
+	text-align: center;
+}
+
+ol#jumper li {
+	width: 16px;
+	height: 16px;
+	margin: 0px 4px;
+	display: inline-block;
+}
+
+ol#jumper li a {
+	background-image: url(../images/jumperOff.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+ol#jumper li.current a {
+	background-image: url(../images/jumperOn.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+/* ========== Basic Controls ========== */
+#controlPrev, #controlNext { 
+	display: block;
+	width: 30px;
+	height: 77px;
+	position: absolute;
+	left: -30px;
+	top: 71px;
+	z-index: 1000;
+}
+
+/*  Right Control Positioning: */
+#controlNext { 
+	left:696px;
+}
+
+/*  Control Links:	 */													
+#controlPrev a, #controlNext a {  
+	display:block;
+	position:relative;
+	width:30px;
+	height:77px;
+}
+
+/*  Prev Control Image: */
+#controlNext a { 
+	background:url(../images/btn_prev.gif) no-repeat 0 0;
+}
+
+/*  Next Control Image: */
+#controlNext a { 
+	background:url(../images/btn_next.gif) no-repeat 0 0;	
+}
+
+/*  Outline Removal: */
+ol#jumper li a:focus, #controlPrev a:focus, #controlNext a:focus {
+	outline: none;
+}

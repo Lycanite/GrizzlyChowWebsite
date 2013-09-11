@@ -1,0 +1,2 @@
+<?php		include $_SERVER['DOCUMENT_ROOT']."/scripts/sql/sqlCore.php";	include $_SERVER['DOCUMENT_ROOT']."/scripts/conversion/js_php_array_unpacker.php";		// Get Results:	$addForm = sqlGetTable("form_add_meal", "keyname");	$category = sqlGetTable("categories", "keyname");	$diet = sqlGetTable("diets", "keyname");	
+?>

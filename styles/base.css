@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* ================================ */
+/*            Base Styles           */
+/* ================================ */
+@font-face {
+	font-family: Berlin Sans;
+	src:	url("/fonts/berlin-sans-lgt.ttf"),
+			url("/fonts/berlin-sans-lgt.eot");
+}
+@font-face {
+	font-family: Taco Salad;
+	src:	url("/fonts/taco-salad.ttf"),
+			url("/fonts/taco-salad.eot");
+}
+@font-face {
+	font-family: Taco Modern;
+	src:	url("/fonts/taco-modern.ttf"),
+			url("/fonts/taco-modern.eot");
+}
+@font-face {
+	font-family: Sweet Cheeks;
+	src:	url("/fonts/sweet-cheeks.ttf"),
+			url("/fonts/sweet-cheeks.eot");
+}
+body {
+	font-family: Berlin Sans, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Paragraph ========== */
+p, label, footer nav {
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 12px;
+}
+
+/* ========== Title ========== */
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+	font-family: Taco Salad, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Subtitle ========== */
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Taco Salad, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Header ========== */
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: Sweet Cheeks, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Subheader ========== */
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Sweet Cheeks, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Pointer ========== */
+h5 {
+	font-size: 11px;
+	font-weight: bold;
+	font-style: italics;
+	font-family: Sweet Cheeks, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Subpointer ========== */
+h6 {
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Sweet Cheeks, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Hyperlinks ========== */
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* ========== Navigation ========== */
+header nav {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Taco Salad, Segoe UI, Arial, Verdana, Times New Roman;
+}
+
+/* ========== Lists ========== */
+ul {
+	list-style-type: square;
+	list-style-position: outside;
+	padding-left: 18px;
+	padding-bottom: 8px;
+}
+li, li p {
+	padding-bottom: 0px;
+}
+
+/* ========== Formatting ========== */
+b {
+	font-weight: bold;
+	font-family: Taco Salad, Segoe UI, Arial, Verdana, Times New Roman;
+}
+i {
+	font-style: italic;
+}
+
+/* ========== Tables ========== */
+td {
+	padding: 0 8px;
+	vertical-align: top;
+}

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* ============================== */
+/*            Template            */
+/* ============================== */
+
+/* ========== Base ========== */
+html {
+	height: 100%;
+}
+body {
+	height: auto;
+	min-height: 100%;
+}
+
+/* ========== Header ========== */
+header, #header {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	vertical-align: middle;
+	z-index: 3;
+}
+header .wrapper, #header .wrapper {
+	padding: 0 16px;
+	padding-bottom: 16px;
+}
+
+header nav, #header nav {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding-top: 8px;
+}
+
+
+/* ========== Main ========== */
+#main {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 32px 0;
+	padding-bottom: 32px;
+	z-index: 1;
+}
+#main .wrapper {
+	padding: 0px;
+}
+
+/* ========== Footer ========== */
+footer {
+	position: fixed;
+	bottom: 0px;
+	min-height: 32px;
+	width: 100%;
+	z-index: 2;
+}
+
+
+/* ============================== */
+/*             Common             */
+/* ============================== */
+
+/* ========== Elements ========== */
+article {
+	padding-bottom: 16px;
+}
+
+/* ========== Wrappers ========== */
+.wrapper {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* ========== Dividers ========== */
+.divider-vertical, .divider-vertical-light {
+	width: 1px;
+	height: 100%;
+	background-size: 100% 100%;
+}
+.divider-horizontal, .divider-horizontal-light {
+	width: 100%;
+	height: 1px;
+	margin: 16px 16px;
+	background-size: 100% 100%;
+}
+.divider-horizontal-large {
+	width: 100%;
+	height: 30px;
+	margin: 8px 0;
+	background-size: 100% 100%;
+}
+
+/* ========== Boxes ========== */
+.box-dark, .box-light, .box-blue {
+	margin: 8px;
+	padding: 8px;
+	border-radius: 15px;
+}
+.box-item {
+	width: 192px;
+	height: 216px;
+	display: inline-block;
+}
+
+/* ========== Forms ========== */
+label {
+	padding: 0;
+}
+input, textarea, select {
+	width: 384px;
+	font-family: Sweet Cheeks;
+	font-size: 20px;
+	border-width: 4px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+input:disabled, textarea:disabled, select:disabled, label.disabled, .form-arrow.disabled, .form-arrow-required.disabled {
+	width: 0px;
+	height: 0px;
+	text-size: 0px;
+}
+.form-cell-label {
+	padding-top: 4px;
+	padding-right: 8px;
+	text-align: right;
+	vertical-align: top;
+}
+
+.form-arrow, .form-arrow-required {
+	width: 16px;
+	height: 16px;
+	position: relative;
+	display: inline-block;
+}
+
+/* ========== Inline Frame ========== */
+iframe {
+	margin-bottom: 8px;
+}
+
+/* ========== Link Button ========== */
+.button, nav a {
+	display: inline;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none !important;
+	padding: 8px;
+}
+.button:hover, nav a:hover {
+	text-decoration: none !important;
+}
